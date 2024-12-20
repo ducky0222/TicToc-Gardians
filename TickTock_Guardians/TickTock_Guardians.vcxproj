@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6958e58f-eee7-42ce-af93-5266de34cc00}</ProjectGuid>
+    <RootNamespace>TickTockGuardians</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)GameEngine;$(SolutionDir)\include\;..\include\Phyx;$(SolutionDir)PhysicEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MaxFilesInUnityFile>0</MaxFilesInUnityFile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GameEngine.lib;Reflection.lib;PhysicsEngine.lib;ABGraphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)GameEngine;$(SolutionDir)\include\;..\include\Phyx;$(SolutionDir)PhysicEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="BoxGenerator.h" />
+    <ClInclude Include="BoxGeneratorSystem.h" />
+    <ClInclude Include="BoxSystem.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Button2D.h" />
+    <ClInclude Include="Button2DSystem.h" />
+    <ClInclude Include="ButtonSystem.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CharacterBarrier.h" />
+    <ClInclude Include="CharacterBarrierSystem.h" />
+    <ClInclude Include="CharacterSelect.h" />
+    <ClInclude Include="CharacterSystem.h" />
+    <ClInclude Include="CheckMissionClear.h" />
+    <ClInclude Include="CollisionCustom.h" />
+    <ClInclude Include="ConveyorBelt.h" />
+    <ClInclude Include="ConveyorBeltPlane.h" />
+    <ClInclude Include="ConveyorBeltSystem.h" />
+    <ClInclude Include="DimensionCrack.h" />
+    <ClInclude Include="DimensionCrackSystem.h" />
+    <ClInclude Include="FirstPlayer.h" />
+    <ClInclude Include="GroundCheckHelper.h" />
+    <ClInclude Include="InGameManager.h" />
+    <ClInclude Include="InGameManagerSystem.h" />
+    <ClInclude Include="JumpParameter.h" />
+    <ClInclude Include="LandingPoint.h" />
+    <ClInclude Include="LevelSelectScene.h" />
+    <ClInclude Include="LandingPointSystem.h" />
+    <ClInclude Include="Lift.h" />
+    <ClInclude Include="LiftSystem.h" />
+    <ClInclude Include="MapSearchScene.h" />
+    <ClInclude Include="MousePickingSystem.h" />
+    <ClInclude Include="NeoButton2D.h" />
+    <ClInclude Include="NeoConveyorBelt.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Replayer.h" />
+    <ClInclude Include="ReplayerSystem.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SecondPlayer.h" />
+    <ClInclude Include="SelectCharacter.h" />
+    <ClInclude Include="CheckTutorialClear.h" />
+    <ClInclude Include="StageOver.h" />
+    <ClInclude Include="TutorialPlayer.h" />
+    <ClInclude Include="Tag.h" />
+    <ClInclude Include="ThirdPlayer.h" />
+    <ClInclude Include="TickTockAnimationSystem.h" />
+    <ClInclude Include="TickTockComponentCommon.h" />
+    <ClInclude Include="TickTockGuardians.h" />
+    <ClInclude Include="TickTockScene.h" />
+    <ClInclude Include="TickTockSceneCommon.h" />
+    <ClInclude Include="TickTockSceneSystem.h" />
+    <ClInclude Include="TitleScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxGeneratorSystem.cpp" />
+    <ClCompile Include="BoxSystem.cpp" />
+    <ClCompile Include="Button2DSystem.cpp" />
+    <ClCompile Include="ButtonSystem.cpp" />
+    <ClCompile Include="CharacterBarrier.cpp" />
+    <ClCompile Include="CharacterBarrierSystem.cpp" />
+    <ClCompile Include="CharacterSelect.cpp" />
+    <ClCompile Include="CharacterSystem.cpp" />
+    <ClCompile Include="CheckMissionClear.cpp" />
+    <ClCompile Include="ConveyorBeltSystem.cpp" />
+    <ClCompile Include="DimensionCrackSystem.cpp" />
+    <ClCompile Include="FirstPlayer.cpp" />
+    <ClCompile Include="GroundCheckHelper.cpp" />
+    <ClCompile Include="InGameManagerSystem.cpp" />
+    <ClCompile Include="LandingPointSystem.cpp" />
+    <ClCompile Include="LevelSelectScene.cpp" />
+    <ClCompile Include="LiftSystem.cpp" />
+    <ClCompile Include="MapSearchScene.cpp" />
+    <ClCompile Include="MousePickingSystem.cpp" />
+    <ClCompile Include="NeoConveyorBelt.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ReplayerSystem.cpp" />
+    <ClCompile Include="SecondPlayer.cpp" />
+    <ClCompile Include="CheckTutorialClear.cpp" />
+    <ClCompile Include="StageOver.cpp" />
+    <ClCompile Include="TutorialPlayer.cpp" />
+    <ClCompile Include="ThirdPlayer.cpp" />
+    <ClCompile Include="TickTockAnimationSystem.cpp" />
+    <ClCompile Include="TickTockGuardians.cpp" />
+    <ClCompile Include="TickTockScene.cpp" />
+    <ClCompile Include="TickTockSceneSystem.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TickTock_Guardians.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="TickTock_Guardians.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameEngine\GameEngine.vcxproj">
+      <Project>{fb7ae798-cd3c-4ff3-a654-6e9fe4a80b55}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PhysicEngine\PhysicEngine.vcxproj">
+      <Project>{eb55afa0-db62-4747-b0ed-9e7edb92dc12}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

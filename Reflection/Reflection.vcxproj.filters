@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Property">
+      <UniqueIdentifier>{8f527f29-eb55-404e-a365-d61ce7ab7635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TypeInfo">
+      <UniqueIdentifier>{3039c87e-a57b-43a8-8d54-7ac4376d02cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Serialize">
+      <UniqueIdentifier>{1c16aeb3-63fe-4488-a86e-f4b415ccd1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\glassify">
+      <UniqueIdentifier>{e0eeed3e-a945-4cf9-a491-8fbece227eb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PropertyMacro.h">
+      <Filter>소스 파일\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeInfo.h">
+      <Filter>소스 파일\TypeInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeInfoMacro.h">
+      <Filter>소스 파일\TypeInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>소스 파일\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glassify\glas_decl.h">
+      <Filter>소스 파일\glassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glassify\glas_dependencies.h">
+      <Filter>소스 파일\glassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glassify\glas_enum.h">
+      <Filter>소스 파일\glassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glassify\glas_impl.h">
+      <Filter>소스 파일\glassify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glassify\glassify.h">
+      <Filter>소스 파일\glassify</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TypeInfo.cpp">
+      <Filter>소스 파일\TypeInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

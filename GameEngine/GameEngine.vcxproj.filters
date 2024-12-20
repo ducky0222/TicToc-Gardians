@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{fc92d0b3-dcb7-4533-8bed-c43684eef92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\Source">
+      <UniqueIdentifier>{3c5bd053-e221-4ac7-8059-1944e98bd108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\Header">
+      <UniqueIdentifier>{291c711a-e447-44e6-a4e6-3cb653dc544f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components">
+      <UniqueIdentifier>{929a89bd-a538-493f-a8fd-036363a3fce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components\Header">
+      <UniqueIdentifier>{7320cf03-f206-4a9b-9707-e23f5d7066b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components\Source">
+      <UniqueIdentifier>{c0db7e51-2407-45e2-acc8-a5901c1ca6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base">
+      <UniqueIdentifier>{82b387ae-8495-422c-af75-b1cc2f8b7a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base\Header">
+      <UniqueIdentifier>{39f3ac8a-7c85-4d3f-930c-e837750b76c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base\Source">
+      <UniqueIdentifier>{f661c99b-1847-4077-b447-9e5cebc7a8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface">
+      <UniqueIdentifier>{c9a68eb3-cc08-4468-b87f-1b041a4e9eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{66a1ee52-5dba-49e6-a719-56b69cbd6b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Source">
+      <UniqueIdentifier>{a1118d6a-a3b5-4237-9733-20e97cc26cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\pch">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="VerySimpleLib">
+      <UniqueIdentifier>{78c6caf2-37f9-4e2b-93db-86968e8f65e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VerySimpleLib\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\System\Header">
+      <UniqueIdentifier>{cf83f6b2-6f53-40eb-bfa7-cf00cc64190d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPoolManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPool.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInterface.h">
+      <Filter>소스 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VerySimpleMath.h">
+      <Filter>VerySimpleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>소스 파일\Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTestSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI2DRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI3DRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEffect.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIdentity.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OnOff.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformAnimation.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentCommon.h">
+      <Filter>소스 파일\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CutScene.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NeoAnimationClip.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OnOffSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxRenderer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NeoNeoAnimationClip.h">
+      <Filter>소스 파일\pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentPoolManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VerySimpleMath.cpp">
+      <Filter>VerySimpleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTestSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClInclude Include="RigidBody.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OnOffSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OnOff.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NeoNeoAnimationClip.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VerySimpleMath.inl">
+      <Filter>VerySimpleLib</Filter>
+    </None>
+  </ItemGroup>
+</Project>

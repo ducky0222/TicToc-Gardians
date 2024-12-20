@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="else">
+      <UniqueIdentifier>{988299d5-c59a-4ae6-a45d-bfde1fbfb086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="else\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Components">
+      <UniqueIdentifier>{ca2ebec6-3b11-49e7-af83-6bc1b091acf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{1ca89379-a223-4009-a465-a76947163594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{d4b272fa-93d4-4603-b168-9cbba96b3f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Header">
+      <UniqueIdentifier>{9452f7e3-f070-437d-95e6-bb8b1b98dab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Source">
+      <UniqueIdentifier>{6f1b9e08-3879-4fb6-82b9-187b51ce56b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components\Header">
+      <UniqueIdentifier>{712262a6-8a5f-4adc-a7a8-1e61f9dd3265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components\Source">
+      <UniqueIdentifier>{29eeb07c-473b-45a2-8cd9-73550dd295b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Header">
+      <UniqueIdentifier>{38237f78-4dc7-4d81-90e7-a3ef1a47d717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Source">
+      <UniqueIdentifier>{35c4acbe-22f2-463a-979f-dede6ec42ddf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockSceneCommon.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockGuardians.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockComponentCommon.h">
+      <Filter>소스 파일\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxGeneratorSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Button2DSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConveyorBeltSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionCrackSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LiftSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePickingSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayerSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockAnimationSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockSceneSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxGenerator.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Button2D.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConveyorBelt.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Lift.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Replayer.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacter.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckMissionClear.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPlayer.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondPlayer.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPlayer.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TickTockScene.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LandingPointSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelectScene.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NeoButton2D.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConveyorBeltPlane.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSearchScene.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LandingPoint.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameManager.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameManagerSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpParameter.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionCrack.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialPlayer.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckTutorialClear.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCustom.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSystem.h">
+      <Filter>소스 파일\System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StageOver.h">
+      <Filter>소스 파일\Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NeoConveyorBelt.h">
+      <Filter>소스 파일\Components\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBarrier.h" />
+    <ClInclude Include="CharacterBarrierSystem.h" />
+    <ClInclude Include="GroundCheckHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>else</Filter>
+    </ClCompile>
+    <ClCompile Include="TickTockGuardians.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxGeneratorSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button2DSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConveyorBeltSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DimensionCrackSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LiftSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePickingSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayerSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TickTockAnimationSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TickTockSceneSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckMissionClear.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondPlayer.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPlayer.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TickTockScene.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPlayer.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LandingPointSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelectScene.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSearchScene.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameManagerSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialPlayer.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckTutorialClear.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSystem.cpp">
+      <Filter>소스 파일\System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StageOver.cpp">
+      <Filter>소스 파일\Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NeoConveyorBelt.cpp">
+      <Filter>소스 파일\Components\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBarrier.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBarrierSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundCheckHelper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TickTock_Guardians.rc">
+      <Filter>else\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>else\리소스 파일</Filter>
+    </Image>
+    <Image Include="TickTock_Guardians.ico">
+      <Filter>else\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

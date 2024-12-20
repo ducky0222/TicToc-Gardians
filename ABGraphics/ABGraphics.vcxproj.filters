@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\common">
+      <UniqueIdentifier>{20627016-6865-4117-a091-3c8265b3fb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\model">
+      <UniqueIdentifier>{e08f2eb0-8098-4299-8c50-3b3040e0f235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bindable">
+      <UniqueIdentifier>{6b67d038-4f76-4ce3-929e-c848022afb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\jobber">
+      <UniqueIdentifier>{4436ef75-2e6f-4753-a626-7a4a42df3053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\jobber\pass">
+      <UniqueIdentifier>{07fe089d-6af8-4b7d-a535-0db656726b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\jobber\renderGraph">
+      <UniqueIdentifier>{306f8357-0c44-439f-bcf1-c2cca2e7dbac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\common">
+      <UniqueIdentifier>{f6dd2aa2-d912-4a79-8131-74b4f82a5f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\model">
+      <UniqueIdentifier>{83ca3ddd-f719-48a5-86eb-b13b87ff670d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\bindable">
+      <UniqueIdentifier>{88e31557-6e80-4c23-adf1-34d27fd62a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\jobber">
+      <UniqueIdentifier>{81d9a1aa-1bc1-40e6-ab25-dc998a74394a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\jobber\renderGraph">
+      <UniqueIdentifier>{ae6a6612-d41b-4858-a900-efa416ba049c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\jobber\pass">
+      <UniqueIdentifier>{75d82e48-01f0-4fba-b515-83b496c194c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{27816154-917b-47e7-8705-2cb92437f6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PS">
+      <UniqueIdentifier>{df17cb17-9746-4438-8e15-cea2605bf660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\VS">
+      <UniqueIdentifier>{707b966b-0116-45a5-80a8-6bb029834ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\bindable\CBuf">
+      <UniqueIdentifier>{9b4d2678-2cbc-4e28-9d3f-a709437a99b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bindable\Cbuf">
+      <UniqueIdentifier>{801b9c62-406c-490a-95f8-9f2e093e20cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GS">
+      <UniqueIdentifier>{f324bd0d-ecff-4115-8fae-416c8ffaf714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\enum">
+      <UniqueIdentifier>{0ea5e44f-c38b-4efa-ab32-68cfd64972f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BindableCommon.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="BindableResourceManager.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>헤더 파일\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferResource.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferEx.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTexture.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferClearPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="BindingPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicConstant.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencil.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRenderGraph.h">
+      <Filter>헤더 파일\jobber\renderGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameLight.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsResource.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBindable.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutCodex.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>헤더 파일\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>헤더 파일\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>헤더 파일\model</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>헤더 파일\model</Filter>
+    </ClInclude>
+    <ClInclude Include="NullPixelShader.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderGraph.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQueuePass.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowRasterizer.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowSampler.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Sink.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Step.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Stencil.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>헤더 파일\jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Topology.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="OffScreenMappingPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreenPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="SsaoBlurPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="SsaoDepthNormalPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="SsaoPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="HasAlphaForwardRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="HasAlphaUIRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="PassCommon.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbuf.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCBufBone.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbufShadow.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCBufSkybox.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbufUI.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCBufAlpha.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryCBufUI3D.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="HasAlphaUI3DRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="UI3DRenderPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShader.h">
+      <Filter>헤더 파일\bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="eModelType.h">
+      <Filter>헤더 파일\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffectPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderManager.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="CutScenePass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundPass.h">
+      <Filter>헤더 파일\jobber\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCBufCutScene.h">
+      <Filter>헤더 파일\bindable\CBuf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\model</Filter>
+    </ClCompile>
+    <ClCompile Include="BindableResourceManager.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferClearPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferEx.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTexture.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencil.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicConstant.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameLight.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsResource.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="IBindable.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutCodex.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="LightHelper.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>소스 파일\model</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>소스 파일\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>소스 파일\model</Filter>
+    </ClCompile>
+    <ClCompile Include="NullPixelShader.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGraph.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardRenderGraph.cpp">
+      <Filter>소스 파일\jobber\renderGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderQueuePass.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Sink.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowPass.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowSampler.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowRasterizer.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="Step.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Topology.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Stencil.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferResource.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="OffScreenMappingPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="SsaoBlurPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="SsaoPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="SsaoDepthNormalPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="HasAlphaForwardRenderPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="HasAlphaUIRenderPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawable.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbuf.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCBufBone.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbufShadow.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCBufSkybox.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbufUI.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCBufAlpha.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryCBufUI3D.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="HasAlphaUI3DRenderPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="UI3DRenderPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryShader.cpp">
+      <Filter>소스 파일\bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffectPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderManager.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundPass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="CutScenePass.cpp">
+      <Filter>소스 파일\jobber\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="BindingPass.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreenPass.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="PassCommon.cpp">
+      <Filter>소스 파일\jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCBufCutScene.cpp">
+      <Filter>소스 파일\bindable\Cbuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTex.inl">
+      <Filter>헤더 파일\common</Filter>
+    </None>
+    <None Include="..\Resources\Shader\LightHelper.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shader\Fullscreen_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Model_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\ModelPBR_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Skybox_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Ssao_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SsaoBlur_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SsaoDepthNormal_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Fullscreen_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\ModelShadow_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Model_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\ModelSkinned_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\ModelSkinnedShadow_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Skybox_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Ssao_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SsaoDepthNormalBasic_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SsaoDepthNormalSkinned_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\UI_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\UI_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\UI3D_GS.hlsl">
+      <Filter>Shader\GS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\UI3D_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\UI3D_VS.hlsl">
+      <Filter>Shader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\PostEffect_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\CutScene_PS.hlsl">
+      <Filter>Shader\PS</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

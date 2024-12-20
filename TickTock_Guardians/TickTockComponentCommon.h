@@ -1,0 +1,16 @@
+#pragma once
+
+#include "Tag.h"
+#include "SelectCharacter.h"
+#include "Replayer.h"
+#include "Lift.h"
+#include "ConveyorBelt.h"
+#include "Character.h"
+#include "Button.h"
+#include "BoxGenerator.h"
+#include "Box.h"
+#include "Button2D.h"
+#include "NeoButton2D.h"
+#include "OnOff.h"
+#include "ConveyorBeltPlane.h"
+#include "CollisionCustom.h"

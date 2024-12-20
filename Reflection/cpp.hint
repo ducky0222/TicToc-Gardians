@@ -1,0 +1,4 @@
+// 힌트 파일은 Visual Studio IDE에서 함수 및 매크로 이름과 같은 Visual C++ 식별자를
+// 해석하는 데 도움이 됩니다.
+// 자세한 내용은 다음을 참조하세요. https://go.microsoft.com/fwlink/?linkid=865984
+#define PROPERTY(Name) inline static struct RegistPropertyExecutor_##Name { RegistPropertyExecutor_##Name() { static PropertyRegister<ThisType, decltype(##Name), decltype(&ThisType::##Name), &ThisType::##Name> property_register_##Name{ #Name, ThisType::StaticTypeInfo() }; } } regist_##Name;
