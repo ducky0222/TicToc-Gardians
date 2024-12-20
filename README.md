@@ -1,2 +1,7 @@
-# TicToc-Gardians
-게임인재원 5기 / Game Institute (2024.01 ~ 2024.02)
+# TicToc-Gardians - 4Q Project
+
+게임인재원의 4Q 프로젝트 **TicToc Gardians**입니다.
+
+[실행 파일 다운로드 링크](https://drive.google.com/file/d/1aVQfxkbIIK0sZdzrhgR91LfgayktX9Ly/view?usp=drive_link)
+
+[![TicToc Gardians](https://www.youtube.com/watch?v=Cuudj5FuxYY)](https://www.youtube.com/watch?v=Cuudj5FuxYY)
